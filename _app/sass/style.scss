@@ -14,7 +14,8 @@ $medium: new-breakpoint(max-width 960px, 12);
 // Scaffold
 .row-wrapper {
   @include row();
-  padding-bottom: 2rem;
+  // padding-bottom: $gutter;
+  padding: 4rem 0;
   &:nth-child(odd) {
     background: $medium-gray;
     color: white;
@@ -51,16 +52,14 @@ section {
     @include outer-container;
     font-size: modular-scale(4);
     text-align: center;
-    padding-top: $gutter;
+    // padding-top: $gutter;
     @include media($mobile) {
       font-size: modular-scale(2.5);
     }
   }
 }
 
-
 // Gallery
-
 .gallery-img-wrapper {
   @include span-columns(4);
   background-size: cover;
@@ -69,7 +68,7 @@ section {
   // background-position-y: -50px;
   @include media($mobile) {
     @include span-columns(12);
-    margin-bottom: $gutter;
+    // margin-bottom: $gutter;
   }
   height: 300px;
   overflow: hidden;
@@ -114,7 +113,7 @@ section {
   @include media($medium) {
     @include span-columns(10);
     @include shift(1);
-    padding-top: $gutter;
+    // padding-top: $gutter;
   }
   @include media($mobile) {
     // @include pad(default default default default);
@@ -126,7 +125,7 @@ section {
 // Blog List
 .blog-post {
   // height: 150px;
-  margin-bottom: $gutter;
+  margin-bottom: 1rem;
   overflow: hidden;
 }
 
@@ -138,7 +137,7 @@ section {
   @include media($medium) {
     display: none;
   }
-  margin-bottom: $gutter;
+  // margin-bottom: $gutter;
 }
 
 .blog-text-wrapper {
@@ -181,13 +180,15 @@ footer {
 }
 
 .footer-items-wrapper {
+
   @include outer-container();
+  // @include omega();
   @include pad (default default default default);
-  text-align: center;
 }
 
 .footer-item {
-  li {
+  text-align: center;
+   li {
     opacity: 0.4;
   }
   @include span-columns(4);
@@ -195,4 +196,23 @@ footer {
     @include span-columns(12);
     padding-bottom: $gutter;
   }
+}
+
+.footer-mouse,
+.footer-mousetext {
+  @include span-columns(2 of 4);
+}
+
+
+.footer-bottomline {
+
+
+  padding-top: 0;
+  opacity: 0.7;
+  font-size: 0.7rem;
+}
+
+.footer-copy {
+  @include span-columns(12);
+  text-align: center;
 }
