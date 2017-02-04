@@ -275,7 +275,7 @@ section h1 {
   width: 31.7615653177%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   height: 300px;
   overflow: hidden; }
   .gallery-img-wrapper:last-child {
