@@ -1,16 +1,9 @@
 @import "bourbon/bourbon";
 @import "bitters/base";
 @import "neat/neat-helpers";
-// Neat Overrides
-// $column: 40px;
-// $gutter: 44px;
-// $grid-columns: 12;
-// $max-width: 1024px;
-// Neat Breakpoints
-// $medium-screen: em(640);
-// $large-screen: em(860);
-$mobile: new-breakpoint(max-width 400px, 12);
-$medium: new-breakpoint(max-width 768px, 12);
+
+$mobile: new-breakpoint(max-width 375px, 12);
+$medium: new-breakpoint(max-width 960px, 12);
 @import "neat/neat";
 // Sort out headers
 @for $i from 1 through 6 {
@@ -19,25 +12,7 @@ $medium: new-breakpoint(max-width 768px, 12);
   }
 }
 
-// $types: (
-//    h1: 7,
-//    h2: 6,
-//    h3: 5,
-//    h4: 4,
-//    h5: 3,
-//    h6: 2,
-//    p: 0,
-//    aside: 1
-// );
-// // $modular-scale-ratio: $minor-third;
-// // try $minor-seventh, $perfect-fifth, $major-third, or other scales
-// @each $type, $scale in $types {
-//    #{$type} {
-//       font-size: modular-scale($scale);
-//       line-height: 1.5em;
-//       font-family: 'Futura', sans-serif;
-//    }
-// }
+
 // Scaffold
 .row-wrapper {
   @include row();
@@ -146,13 +121,16 @@ section {
 // Blog List
 
 .blog-post {
-  height: 150px;
+  // height: 150px;
   margin-bottom: $gutter;
   overflow: hidden;
 }
 
 .blog-img-wrapper {
   @include span-columns(2);
+  @include shift(2);
+  height: 220px;
+  background-size: cover;
   @include media($medium) {
     display: none;
   }
@@ -163,7 +141,10 @@ section {
   @include span-columns(6);
   @include media($medium) {
     @include span-columns(8);
+    @include omega();
     @include shift(2);
+    // margin-top: 50px;
+    // text-align: center;
     // height: 300px;
     // @include pad(default default default default);
     // margin-bottom: 2rem;
