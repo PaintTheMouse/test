@@ -1,8 +1,7 @@
 @import "bourbon/bourbon";
 @import "bitters/base";
 @import "neat/neat-helpers";
-
-$mobile: new-breakpoint(max-width 375px, 12);
+$mobile: new-breakpoint(max-width 415px, 12);
 $medium: new-breakpoint(max-width 960px, 12);
 @import "neat/neat";
 // Sort out headers
@@ -11,7 +10,6 @@ $medium: new-breakpoint(max-width 960px, 12);
     font-size: modular-scale(6 - $i);
   }
 }
-
 
 // Scaffold
 .row-wrapper {
@@ -60,8 +58,12 @@ section {
   }
 }
 
+// Gallery
 .gallery-img-wrapper {
   @include span-columns(4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   @include media($mobile) {
     @include span-columns(12);
     margin-bottom: $gutter;
@@ -119,7 +121,6 @@ section {
 }
 
 // Blog List
-
 .blog-post {
   // height: 150px;
   margin-bottom: $gutter;
@@ -167,7 +168,6 @@ section {
   @include media($medium) {
     float: none;
   }
-
 }
 
 // footer

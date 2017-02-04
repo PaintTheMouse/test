@@ -264,7 +264,7 @@ section h1 {
     clear: both;
     content: "";
     display: block; }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
     section h1 {
       font-size: 1.953125em; } }
 
@@ -273,11 +273,14 @@ section h1 {
   display: block;
   margin-right: 2.3576520234%;
   width: 31.7615653177%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 300px;
   overflow: hidden; }
   .gallery-img-wrapper:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
     .gallery-img-wrapper {
       float: left;
       display: block;
@@ -306,7 +309,7 @@ section h1 {
       height: 300px; }
       .about-img-wrapper:last-child {
         margin-right: 0; } }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
     .about-img-wrapper {
       float: left;
       display: block;
@@ -340,7 +343,7 @@ section h1 {
       padding-top: 1.618em; }
       .about-text-wrapper:last-child {
         margin-right: 0; } }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
     .about-text-wrapper {
       float: left;
       display: block;
@@ -422,7 +425,7 @@ footer {
     opacity: 0.4; }
   .footer-item:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
     .footer-item {
       float: left;
       display: block;
