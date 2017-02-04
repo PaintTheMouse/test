@@ -1,0 +1,214 @@
+@import "bourbon/bourbon";
+@import "bitters/base";
+@import "neat/neat-helpers";
+// Neat Overrides
+// $column: 40px;
+// $gutter: 44px;
+// $grid-columns: 12;
+// $max-width: 1024px;
+// Neat Breakpoints
+// $medium-screen: em(640);
+// $large-screen: em(860);
+$mobile: new-breakpoint(max-width 400px, 12);
+$medium: new-breakpoint(max-width 768px, 12);
+@import "neat/neat";
+// Sort out headers
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: modular-scale(6 - $i);
+  }
+}
+
+// $types: (
+//    h1: 7,
+//    h2: 6,
+//    h3: 5,
+//    h4: 4,
+//    h5: 3,
+//    h6: 2,
+//    p: 0,
+//    aside: 1
+// );
+// // $modular-scale-ratio: $minor-third;
+// // try $minor-seventh, $perfect-fifth, $major-third, or other scales
+// @each $type, $scale in $types {
+//    #{$type} {
+//       font-size: modular-scale($scale);
+//       line-height: 1.5em;
+//       font-family: 'Futura', sans-serif;
+//    }
+// }
+// Scaffold
+.row-wrapper {
+  @include row();
+  padding-bottom: 2rem;
+  &:nth-child(odd) {
+    background: $medium-gray;
+    color: white;
+  }
+  .outer-container {
+    @include outer-container;
+    // overflow: hidden;
+  }
+}
+
+
+/* Masthead */
+
+.masthead {
+  // padding: 14rem 1rem;
+  // font-weight: 300;
+  // color: rgba(255,255,255,.65);
+  text-align: center;
+  // background-color: #b94a48;
+  background: url("../images/IMG_0200_21.JPG") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.masthead-title {
+  // @include outer-container;
+  padding: 0 50px;
+  width: 100%;
+  padding-top: 30vh;
+}
+
+section {
+  h1 {
+    @include outer-container;
+    font-size: modular-scale(4);
+    text-align: center;
+    padding-top: $gutter;
+    @include media($mobile) {
+      font-size: modular-scale(2.5);
+    }
+  }
+}
+
+.gallery-img-wrapper {
+  @include span-columns(4);
+  @include media($mobile) {
+    @include span-columns(12);
+    margin-bottom: $gutter;
+  }
+  height: 300px;
+  overflow: hidden;
+}
+
+.gallery-img {
+  // @include fill-parent;
+}
+
+// About
+.about-img-wrapper {
+  @include span-columns(5);
+  // @include pad(default 0 default default);
+  @include media($medium) {
+    @include span-columns(10);
+    @include shift(1);
+    height: 300px;
+    // @include pad(default default default default);
+    // margin-bottom: 2rem;
+  }
+  @include media($mobile) {
+    @include span-columns(12);
+    @include shift(0);
+    // margin-bottom: 2rem;
+  }
+  height: 400px;
+  overflow: hidden;
+}
+
+.about-img {
+  // @include fill-parent;
+  position: relative;
+  top: -100px;
+  @include media($medium) {
+    top: -120px;
+  }
+}
+
+.about-text-wrapper {
+  @include span-columns(7);
+  // @include pad(default default default default);
+  @include media($medium) {
+    @include span-columns(10);
+    @include shift(1);
+    padding-top: $gutter;
+  }
+  @include media($mobile) {
+    // @include pad(default default default default);
+    @include span-columns(12);
+    @include shift(0);
+  }
+}
+
+// Blog List
+
+.blog-post {
+  height: 150px;
+  margin-bottom: $gutter;
+  overflow: hidden;
+}
+
+.blog-img-wrapper {
+  @include span-columns(2);
+  @include media($medium) {
+    display: none;
+  }
+  margin-bottom: $gutter;
+}
+
+.blog-text-wrapper {
+  @include span-columns(6);
+  @include media($medium) {
+    @include span-columns(8);
+    @include shift(2);
+    // height: 300px;
+    // @include pad(default default default default);
+    // margin-bottom: 2rem;
+  }
+  // @include media($mobile) {
+  //   @include span-columns(12);
+  //   // @include shift(0);
+  //   // margin-bottom: 2rem;
+  // }
+}
+
+.blog-title {
+  // display: inline-block;
+}
+
+.blog-date {
+  // display: inline-block;
+  // margin-left: 50px;
+  float: right;
+  @include media($medium) {
+    float: none;
+  }
+
+}
+
+// footer
+footer {
+  @include row();
+  background-color: $dark-gray;
+  color: white;
+}
+
+.footer-items-wrapper {
+  @include outer-container();
+  @include pad (default default default default);
+  text-align: center;
+}
+
+.footer-item {
+  li {
+    opacity: 0.4;
+  }
+  @include span-columns(4);
+  @include media($mobile) {
+    @include span-columns(12);
+    padding-bottom: $gutter;
+  }
+}
