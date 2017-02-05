@@ -61,13 +61,14 @@ section {
 
 // Gallery
 .gallery-img-wrapper {
+  border: solid 1px white;
   @include span-columns(4);
   // position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
   // transition: transform 0.4s
-  &:hover {
+  &:hover,&:focus {
     transform: scale(1.2);
     transition: transform 0.4s;
     z-index: 100;
@@ -92,7 +93,7 @@ section {
   // transition: transform 0.4s, opacity 0.1s;
   // display: table-cell;
   // vertical-align: middle;
-  &:hover {
+  &:hover,&:focus {
     opacity: 0.5;
     transition: transform 0.4s;
   }
@@ -100,7 +101,6 @@ section {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-
   }
 }
 
