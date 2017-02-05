@@ -68,7 +68,7 @@ section {
   background-repeat: no-repeat;
   background-position: center bottom;
   // transition: transform 0.4s
-  &:hover,&:focus {
+  &:hover {
     transform: scale(1.2);
     transition: transform 0.4s;
     z-index: 100;
@@ -93,7 +93,7 @@ section {
   // transition: transform 0.4s, opacity 0.1s;
   // display: table-cell;
   // vertical-align: middle;
-  &:hover,&:focus {
+  &:hover {
     opacity: 0.5;
     transition: transform 0.4s;
   }

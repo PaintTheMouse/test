@@ -280,7 +280,7 @@ section h1 {
   overflow: hidden; }
   .gallery-img-wrapper:last-child {
     margin-right: 0; }
-  .gallery-img-wrapper:hover, .gallery-img-wrapper:focus {
+  .gallery-img-wrapper:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     -webkit-transition: -webkit-transform 0.4s;
@@ -303,7 +303,7 @@ section h1 {
   width: 100%;
   opacity: 0;
   text-align: center; }
-  .image_overlay:hover, .image_overlay:focus {
+  .image_overlay:hover {
     opacity: 0.5;
     -webkit-transition: -webkit-transform 0.4s;
     transition: -webkit-transform 0.4s;
