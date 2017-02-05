@@ -62,9 +62,16 @@ section {
 // Gallery
 .gallery-img-wrapper {
   @include span-columns(4);
+  // position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
+  // transition: transform 0.4s
+  &:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s;
+    z-index: 100;
+  }
   // background-position-y: -50px;
   @include media($mobile) {
     @include span-columns(12);
@@ -72,6 +79,29 @@ section {
   }
   height: 300px;
   overflow: hidden;
+}
+
+.image_overlay {
+  background: rgba(74, 215, 177, 0.85);
+  // padding: 2.5em 10%;
+  // position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  // transition: transform 0.4s, opacity 0.1s;
+  // display: table-cell;
+  // vertical-align: middle;
+  &:hover {
+    opacity: 0.5;
+    transition: transform 0.4s;
+  }
+  h2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+  }
 }
 
 .gallery-img {
@@ -124,7 +154,6 @@ section {
 
 // Blog List
 .blog-post {
-  // height: 150px;
   margin-bottom: 1rem;
   overflow: hidden;
 }
@@ -137,7 +166,6 @@ section {
   @include media($medium) {
     display: none;
   }
-  // margin-bottom: $gutter;
 }
 
 .blog-text-wrapper {
@@ -146,17 +174,7 @@ section {
     @include span-columns(8);
     @include omega();
     @include shift(2);
-    // margin-top: 50px;
-    // text-align: center;
-    // height: 300px;
-    // @include pad(default default default default);
-    // margin-bottom: 2rem;
   }
-  // @include media($mobile) {
-  //   @include span-columns(12);
-  //   // @include shift(0);
-  //   // margin-bottom: 2rem;
-  // }
 }
 
 .blog-title {
@@ -180,7 +198,6 @@ footer {
 }
 
 .footer-items-wrapper {
-
   @include outer-container();
   // @include omega();
   @include pad (default default default default);
@@ -188,7 +205,7 @@ footer {
 
 .footer-item {
   text-align: center;
-   li {
+  li {
     opacity: 0.4;
   }
   @include span-columns(4);
@@ -203,10 +220,7 @@ footer {
   @include span-columns(2 of 4);
 }
 
-
 .footer-bottomline {
-
-
   padding-top: 0;
   opacity: 0.7;
   font-size: 0.7rem;
