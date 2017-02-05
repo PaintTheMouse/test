@@ -83,7 +83,7 @@ section {
 }
 
 .image_overlay {
-  background: rgba(74, 215, 177, 0.85);
+  background: rgba(141, 159, 147, .4);
   // padding: 2.5em 10%;
   // position: absolute;
   height: 100%;
@@ -94,15 +94,19 @@ section {
   // display: table-cell;
   // vertical-align: middle;
   &:hover {
-    opacity: 0.5;
-    transition: transform 0.4s;
+    opacity: 1;
+    // transition: transform 0.4s;
   }
-  h2 {
+  a{
+    color: white;
+    font-size: 2rem;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
   }
 }
+
+
 
 .gallery-img {
   // @include fill-parent;

@@ -298,18 +298,16 @@ section h1 {
         margin-right: 0; } }
 
 .image_overlay {
-  background: rgba(74, 215, 177, 0.85);
+  background: rgba(141, 159, 147, 0.4);
   height: 100%;
   width: 100%;
   opacity: 0;
   text-align: center; }
   .image_overlay:hover {
-    opacity: 0.5;
-    -webkit-transition: -webkit-transform 0.4s;
-    transition: -webkit-transform 0.4s;
-    transition: transform 0.4s;
-    transition: transform 0.4s, -webkit-transform 0.4s; }
-  .image_overlay h2 {
+    opacity: 1; }
+  .image_overlay a {
+    color: white;
+    font-size: 2rem;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);

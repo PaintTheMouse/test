@@ -15,6 +15,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/_app\/iphone.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_app\/iphone.html",
+		"oF": 1
+		},
 	"\/_app\/localhost_config.yml": {
 		"ft": 8192,
 		"oA": 1,
@@ -1046,6 +1052,12 @@
 		"oA": 0,
 		"oAP": "\/_layouts\/default.html",
 		"oF": 1
+		},
+	"\/_site\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/index.html",
+		"oF": 0
 		},
 	"\/Gemfile": {
 		"ft": 8192,
