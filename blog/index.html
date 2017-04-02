@@ -1,11 +1,25 @@
 ---
 layout: default
+title: Blog - Paint the Mouse
 ---
 
-<h2>Blog</h2>
-{% for post in site.posts %}
-		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
-		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-{% endfor %}
+<section id="blog" class="row-wrapper">
+  <h1>Blog</h1>
+  {% for post in site.posts limit:4 %}
+  <div class="outer-container blog-post">
+    <div class="blog-img-wrapper" style="background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url({{ site.baseurl }}/images/{{post.image}})">
+  </div>
 
-<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="blog-text-wrapper">
+    <div class="blog-date">{{ post.date | date_to_string }}</div>
+    <h4 class="blog-title">{{post.title}}</h4>
+    <p>{{ post.excerpt }}</p>
+    <p class="continue-reading"><a href="detail-view.html">Continue Reading</a></p>
+  </div>
+  </div>
+  {% endfor %}
+</section>
+
