@@ -7,7 +7,7 @@
 		"uuidString": "DC44DA61-AAF2-4298-AC3E-EDEE5906B675"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -1043,9 +1043,39 @@
 		},
 	"\/_config.yml": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_config.yml",
-		"oF": 0
+		"oF": 1
+		},
+	"\/_includes\/about_section.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_includes\/about_section.html",
+		"oF": 1
+		},
+	"\/_includes\/blog_section.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_includes\/blog_section.html",
+		"oF": 1
+		},
+	"\/_includes\/footer.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_includes\/footer.html",
+		"oF": 1
+		},
+	"\/_includes\/gallery_section.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_includes\/gallery_section.html",
+		"oF": 1
+		},
+	"\/_includes\/head.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_includes\/head.html",
+		"oF": 1
 		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
@@ -1053,11 +1083,29 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 1
 		},
+	"\/_site\/blog\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/index.html",
+		"oF": 0
+		},
 	"\/_site\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
 		"oF": 0
+		},
+	"\/_site\/sold.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/sold.html",
+		"oF": 0
+		},
+	"\/blog\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/blog\/index.html",
+		"oF": 1
 		},
 	"\/Gemfile": {
 		"ft": 8192,
@@ -1077,7 +1125,8 @@
 		"oA": 0,
 		"oAP": "\/images\/41.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0321.JPG": {
 		"ft": 16384,
@@ -1085,7 +1134,8 @@
 		"oA": 0,
 		"oAP": "\/images\/DSC_0321.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0491.JPG": {
 		"ft": 16384,
@@ -1093,7 +1143,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0491.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0491_thumb.JPG": {
 		"ft": 16384,
@@ -1101,7 +1152,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0491_thumb.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0492.JPG": {
 		"ft": 16384,
@@ -1109,7 +1161,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0492.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0492_thumb.JPG": {
 		"ft": 16384,
@@ -1117,7 +1170,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0492_thumb.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0494.JPG": {
 		"ft": 16384,
@@ -1125,7 +1179,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0494.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0494_thumb.JPG": {
 		"ft": 16384,
@@ -1133,7 +1188,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0494_thumb.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0495.JPG": {
 		"ft": 16384,
@@ -1141,7 +1197,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0495.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0495_thumb.JPG": {
 		"ft": 16384,
@@ -1149,7 +1206,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0495_thumb.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0496.JPG": {
 		"ft": 16384,
@@ -1157,7 +1215,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0496.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0496_thumb.JPG": {
 		"ft": 16384,
@@ -1165,7 +1224,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0496_thumb.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0497.JPG": {
 		"ft": 16384,
@@ -1173,7 +1233,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0497.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0497_thumb.JPG": {
 		"ft": 16384,
@@ -1181,7 +1242,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0497_thumb.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0508.JPG": {
 		"ft": 16384,
@@ -1189,7 +1251,8 @@
 		"oA": 1,
 		"oAP": "\/images\/DSC_0508.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/DSC_0511.JPG": {
 		"ft": 16384,
@@ -1197,143 +1260,178 @@
 		"oA": 0,
 		"oAP": "\/images\/DSC_0511.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 6263,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/android-icon-144x144.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/android-icon-192x192.png": {
 		"ft": 32768,
 		"iS": 9886,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/android-icon-192x192.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/android-icon-36x36.png": {
 		"ft": 32768,
 		"iS": 1606,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/android-icon-36x36.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/android-icon-48x48.png": {
 		"ft": 32768,
 		"iS": 1996,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/android-icon-48x48.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/android-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 2821,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/android-icon-72x72.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/android-icon-96x96.png": {
 		"ft": 32768,
 		"iS": 3772,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/android-icon-96x96.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-114x114.png": {
 		"ft": 32768,
 		"iS": 4578,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-114x114.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 4876,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-120x120.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 6263,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-144x144.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-152x152.png": {
 		"ft": 32768,
 		"iS": 6826,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-152x152.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-180x180.png": {
 		"ft": 32768,
 		"iS": 8944,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-180x180.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-57x57.png": {
 		"ft": 32768,
 		"iS": 2310,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-57x57.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-60x60.png": {
 		"ft": 32768,
 		"iS": 2407,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-60x60.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 2821,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-72x72.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-76x76.png": {
 		"ft": 32768,
 		"iS": 2978,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-76x76.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon-precomposed.png": {
 		"ft": 32768,
 		"iS": 9387,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon-precomposed.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/apple-icon.png": {
 		"ft": 32768,
 		"iS": 9387,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/apple-icon.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/browserconfig.xml": {
 		"ft": 8192,
@@ -1344,26 +1442,32 @@
 	"\/images\/ico.ico\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1001,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/favicon-16x16.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1467,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/favicon-32x32.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/favicon-96x96.png": {
 		"ft": 32768,
 		"iS": 3772,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/favicon-96x96.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/favicon.ico": {
 		"ft": 8192,
@@ -1382,34 +1486,42 @@
 	"\/images\/ico.ico\/ms-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 6263,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/ms-icon-144x144.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/ms-icon-150x150.png": {
 		"ft": 32768,
 		"iS": 6721,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/ms-icon-150x150.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/ms-icon-310x310.png": {
 		"ft": 32768,
 		"iS": 21507,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/ms-icon-310x310.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ico.ico\/ms-icon-70x70.png": {
 		"ft": 32768,
 		"iS": 2725,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/ico.ico\/ms-icon-70x70.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/IMG_0197_2.JPG": {
 		"ft": 16384,
@@ -1417,7 +1529,8 @@
 		"oA": 0,
 		"oAP": "\/images\/IMG_0197_2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/IMG_0200_21.JPG": {
 		"ft": 16384,
@@ -1425,7 +1538,8 @@
 		"oA": 0,
 		"oAP": "\/images\/IMG_0200_21.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/IMG_0236_2.JPG": {
 		"ft": 16384,
@@ -1433,7 +1547,8 @@
 		"oA": 0,
 		"oAP": "\/images\/IMG_0236_2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/IMG_0242_2.JPG": {
 		"ft": 16384,
@@ -1441,7 +1556,8 @@
 		"oA": 0,
 		"oAP": "\/images\/IMG_0242_2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/logo\/mouse_black.svg": {
 		"ft": 2097152,
@@ -1486,10 +1602,12 @@
 	"\/images\/logo\/text_1line_white.png": {
 		"ft": 32768,
 		"iS": 37228,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/images\/logo\/text_1line_white.png",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/logo\/text_1line_white.svg": {
 		"ft": 2097152,
@@ -1517,12 +1635,19 @@
 		"oA": 1,
 		"oAP": "\/images\/ray.jpg",
 		"oF": 1,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 1
+		},
+	"\/sold.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sold.html",
 		"oF": 1
 		},
 	"\/style.css": {
@@ -2225,6 +2350,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -2422,6 +2551,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2701,6 +2834,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -2752,6 +2889,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2846,6 +2987,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -3292,7 +3437,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3385,7 +3531,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

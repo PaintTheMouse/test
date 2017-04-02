@@ -1,57 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+{% include head.html %}
 
 <body>
   {{ content }}
-  <footer class="footer" role="contentinfo">
-    <div class="footer-items-wrapper">
-      <div class="footer-item">
-        <p class="footer-heading">Content
-          <p>
-            <nav class="foot-nav">
-              <ul>
-                <li>About</li>
-                <li>Gallery</li>
-                <li>Blog</li>
-              </ul>
-            </nav>
-      </div>
-      <div class="footer-item">
-        <p class="footer-heading">Contact Me
-          <p>
-            <nav class="foot-nav">
-              <ul>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Email</li>
-              </ul>
-            </nav>
-      </div>
-      <div class="footer-item">
-        <!--<div class="footer-mouse">-->
-          <img src="images/logo/mouse_white.svg" alt="Logo image">
-        <!--</div>-->
-        <!--<div class="footer-mousetext">-->
-          <!--<img src="images/logo/text_2lines_white.svg" alt="Logo image">-->
-        <!--</div>-->
-      </div>
-    </div>
-    <div class="footer-bottomline footer-items-wrapper">
-      <div class="footer-copy">
-        <p>Images &copy Ray Murphy <span>|<span> Site designed by Ian Gates 2017</p>
-      </div>
 
-    </div>
-  </footer>
+{% include footer.html %}
+
 </body>
 
 </html>

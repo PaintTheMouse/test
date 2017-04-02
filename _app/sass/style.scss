@@ -71,7 +71,7 @@ section {
   &:hover {
     transform: scale(1.2);
     transition: transform 0.4s;
-    z-index: 100;
+    // z-index: 1;
   }
   // background-position-y: -50px;
   @include media($mobile) {
