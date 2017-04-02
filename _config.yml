@@ -4,8 +4,7 @@ baseurl: ""                     # the subpath of your site, e.g. /blog/
 title: Paint The Mouse
 sold_image: DSC_0321.JPG
 equine_image: IMG_0197_2.JPG
-water_image: DSC_0321.JPG
-# water_image: DSC_0511.JPG
+water_image: DSC_0511.JPG
 # disqus_shortname: 'your-shortname' # ignore this if not using Disqus
 keep_files: []
 exclude: ["_app",
